@@ -4,6 +4,6 @@ folder('terraform') {
 }
 
 folder('terraform1') {
-    displayName('terraform')
+    displayName('terraform1')
     description('terraform jobs')
 }
