@@ -4,7 +4,7 @@ pipelineJob('sample-pipeline') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://github.com/chandralek/pipelines.git')
+                        'url'('https://github.com/chandralek/terraform-vpc')
                         'credentialsId'('GitUserPass')
                     }
                 }
