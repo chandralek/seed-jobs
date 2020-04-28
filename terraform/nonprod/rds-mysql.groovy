@@ -1,4 +1,4 @@
-pipelineJob('terraform/nonprod/rds-mysql') {
+pipelineJob('terraform/nonprod/rds_mysql') {
   configure { flowdefinition ->
     flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps') {
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
