@@ -4,7 +4,7 @@ pipelineJob('terraform/nonprod/rdsmysql') {
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
         'userRemoteConfigs' {
           'hudson.plugins.git.UserRemoteConfig' {
-            'url'('https://github.com/chandralek/rdsmysql.git')
+            'url'('https://github.com/chandralek/rds-mysql.git')
             'credentialsId'('GitUserPass')
           }
         }
