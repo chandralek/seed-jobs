@@ -5,7 +5,7 @@ pipelineJob('terraform/nonprod/rdsmysql') {
         'userRemoteConfigs' {
           'hudson.plugins.git.UserRemoteConfig' {
             'url'('https://github.com/chandralek/user.git')
-            'credentialsId'('GitLab')
+            'credentialsId'('GitUserPass')
           }
         }
         'branches' {
