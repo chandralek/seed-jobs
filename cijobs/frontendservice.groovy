@@ -4,8 +4,7 @@ pipelineJob('CIJOBS/frontend') {
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
         'userRemoteConfigs' {
           'hudson.plugins.git.UserRemoteConfig' {
-            'url'('https://github.com/chandralek/nginx-webapp' +
-                    '.git')
+            'url'('https://github.com/chandralek/nginx-webapp.git')
             'credentialsId'('GitUserPass')
           }
         }
