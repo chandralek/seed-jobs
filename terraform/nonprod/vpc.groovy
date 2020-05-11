@@ -1,7 +1,7 @@
 pipelineJob('terraform/nonprod/vpc') {
 
   parameters {
-    choiceParam(name: 'ACTION', choices: ['', 'APPLY', 'DESTROY'], description: 'Pick something')
+    choiceParam('ACTION', ['', 'APPLY', 'DESTROY'],'Pick something')
   }
 
   configure { flowdefinition ->
