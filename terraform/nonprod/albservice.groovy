@@ -9,7 +9,7 @@ pipelineJob('terraform/nonprod/alb') {
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
         'userRemoteConfigs' {
           'hudson.plugins.git.UserRemoteConfig' {
-            'url'('https://github.cxom/chandralek/alb.git')
+            'url'('https://github.com/chandralek/alb.git')
             'credentialsId'('GitUserPass')
           }
         }

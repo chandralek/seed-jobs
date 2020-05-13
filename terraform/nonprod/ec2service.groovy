@@ -9,7 +9,7 @@ pipelineJob('terraform/nonprod/ec2') {
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
         'userRemoteConfigs' {
           'hudson.plugins.git.UserRemoteConfig' {
-            'url'('https://github.cxom/chandralek/ec2.git')
+            'url'('https://github.com/chandralek/ec2.git')
             'credentialsId'('GitUserPass')
           }
         }
