@@ -1,4 +1,4 @@
-pipelineJob('terraform/nonprod/mongodb') {
+pipelineJob('terraform/nonprod/rabbitmq') {
   parameters {
     choiceParam('ACTION', ['', 'APPLY', 'DESTROY'],'Pick something')
   }
