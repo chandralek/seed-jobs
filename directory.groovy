@@ -12,3 +12,8 @@ folder('CIJOBS') {
   displayName('CIJOBS')
   description('CIJOBS')
 }
+
+folder('practice'){
+  displayName('practice')
+  description('practice')
+}
